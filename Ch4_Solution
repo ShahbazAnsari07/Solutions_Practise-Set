@@ -1,0 +1,31 @@
+// Practise set Chapter 4
+
+// Question 1
+console.log("Har\"".length)
+
+// Question 2
+
+// This is about the startswith() method.
+const str1 = 'Saturday night plans';
+console.log(str1.startsWith('Sat'));
+
+// This is about endsWith() method.
+const trs = "Cats are Cute!"
+console.log(trs.endsWith("Cute!"))
+
+// Question 3
+let string = "ShahBaz ANsaRi"
+console.log(string.toLowerCase())
+
+// Question 4
+let srt = "Please give Rs 1000"
+let amount = Number.parseInt(srt.slice(15))
+console.log(amount)
+console.log(typeof amount)
+
+// Question 5
+let friend = "Shahrukh"
+friend[4] = "p"
+console.log(friend) // friend is not change because strings are immutable in Js.
+
+// THE END //
