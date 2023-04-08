@@ -1,0 +1,87 @@
+// Q1 of Practise Set //
+
+let age = prompt("Enter your Age: ")
+age = Number.parseInt(age)
+
+const canDrive = (age) => {
+  return age>=18?true:false
+}
+if(canDrive(age)) {
+  alert("Yes you can drive")
+}
+else{
+  alert("You cannot drive")
+}
+
+
+// Q2 of Practise set //
+
+let runAgain = true;
+
+const canDrive = (age) => {
+  return age >= 18 ? true : false
+}
+
+while(runAgain) {
+  let age = prompt("Enter your Age: ")
+  age = Number.parseInt(age)
+
+  if (canDrive(age)) {
+    alert("Yes you can drive")
+  }
+  else{
+    alert("You cannot drive")
+  }
+  runAgain = confirm("Do you want to play Again")
+}
+
+
+// Q3 of Practise Set //
+
+let runAgain = true;
+
+const canDrive = (age) => {
+  return age >= 18 ? true : false
+}
+
+while(runAgain) {
+  let age = prompt("Enter your Age: ")
+  age = Number.parseInt(age)
+  if(age<0){
+    console.error("Please Enter a Valid Age ");
+    break;
+  }
+
+  if (canDrive(age)) {
+    alert("Yes you can drive")
+  }
+  else{
+    alert("You cannot drive")
+  }
+  runAgain = confirm("Do you want to play Again")
+}
+
+
+// Q4 of Practise Set //
+
+let number = prompt("Enter a Number: ") 
+number = Number.parseInt(number)
+
+if (number > 4) {
+  location.href = "https://google.com"
+}
+
+
+// Q5 of Practise Set //
+
+let number = prompt("Enter a Number: ") 
+number = Number.parseInt(number)
+
+if (number > 4) {
+  location.href = "https://google.com"
+}
+
+let color = prompt("Enter the page background color")
+document.body.style.background = color
+
+// THE END //
